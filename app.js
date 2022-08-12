@@ -1,4 +1,5 @@
 fetchCityWeather("Kyiv");
+
 let inputCity = document.querySelector(".city_input");
 
 inputCity.addEventListener("change", () => {
