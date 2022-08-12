@@ -35,7 +35,7 @@ function fetchCityWeather(cityName) {
         .querySelector(".widget_icon_img")
         .setAttribute(
           "src",
-          `http://openweathermap.org/img/w/${data.weather[0].icon}.png`
+          `https://openweathermap.org/img/w/${data.weather[0].icon}.png`
         );
     });
 }
