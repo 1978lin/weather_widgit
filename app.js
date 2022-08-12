@@ -6,7 +6,7 @@ inputCity.addEventListener("change", () => {
 });
 
 function fetchCityWeather(cityName) {
-  let weatherRequest = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&lang=ua&APPID=5d066958a60d315387d9492393935c19`;
+  let weatherRequest = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&lang=ua&APPID=5d066958a60d315387d9492393935c19`;
 
   fetch(weatherRequest)
     .then((res) => res.json())
